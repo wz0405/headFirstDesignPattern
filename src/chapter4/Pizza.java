@@ -1,16 +1,13 @@
 package chapter4;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public abstract class Pizza {
     String name;
-    Dough dough;
-    Sauce sauce;
-    Veggies veggies[];
-    Cheese cheese;
-    Pepperoni pepperoni;
-    Clams clams;
+//    Dough dough;
+//    Sauce sauce;
+//    Veggies veggies[];
+//    Cheese cheese;
+//    Pepperoni pepperoni;
+//    Clams clams;
 
     abstract  void prepare();
 
@@ -30,7 +27,7 @@ public abstract class Pizza {
     void setName(String name){
         this.name=name;
     }
-    public String toString(){
-
-    }
+//    public String toString(){
+//
+//    }
 }
