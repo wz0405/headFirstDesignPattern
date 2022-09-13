@@ -1,8 +1,18 @@
 package chapter6;
 
 public class Light {
-    public void on(){
-        System.out.println("조명이 켜졌습니다.");
-    };
-    public void off(){};
+    String where;
+    public Light(String living) {
+        this.where = living;
+    }
+
+    public void on() {
+        System.out.println(where+"조명이 켜졌습니다.");
+    }
+
+    ;
+
+    public void off() {
+        System.out.println(where+"꺼졌습니다.");
+    }
 }
